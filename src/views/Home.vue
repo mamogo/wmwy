@@ -118,9 +118,9 @@ const daysTogether = ref(Math.floor((today - togetherDate) / (1000 * 60 * 60 * 2
 const currentBgIndex = ref(Math.floor(Math.random() * 3))
 
 const backgroundImages = [
-  '/bg.jpg',
-  '/bg2.jpg',
-  '/bg3.jpg'
+  import.meta.env.BASE_URL + 'bg.jpg',
+  import.meta.env.BASE_URL + 'bg2.jpg',
+  import.meta.env.BASE_URL + 'bg3.jpg'
 ]
 
 const currentBackground = computed(() => {
