@@ -87,21 +87,21 @@ const months = [
     title: '初见',
     description: '我们的故事从这里开始，一切都是那么美好。',
     bgColor: '#1a1a1a',
-    image: import.meta.env.BASE_URL + '1.jpg'
+    image: './1.jpg'
   },
   {
     month: 'MONTH 02',
     title: '相知',
     description: '越来越了解彼此，每一天都充满惊喜。',
     bgColor: '#151515',
-    image: import.meta.env.BASE_URL + '2.jpg'
+    image: './2.jpg'
   },
   {
     month: 'MONTH 03',
     title: '心动',
     description: '春天来了，我们的感情也在升温。',
     bgColor: '#1a1a1a',
-    image: import.meta.env.BASE_URL + '3.jpg'
+    image: './3.jpg'
   },
   {
     month: 'MONTH 04',
