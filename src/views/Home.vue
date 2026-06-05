@@ -133,19 +133,19 @@ const changeBackground = () => {
 
 const specialMoments = [
   {
-    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=romantic%20couple%20first%20date%20minimalist%20elegant&image_size=landscape_4_3',
-    title: 'First Date',
-    date: 'JAN 2023'
-  },
-  {
-    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=couple%20travel%20beach%20minimalist%20artistic&image_size=landscape_4_3',
-    title: 'First Trip',
-    date: 'MAY 2023'
-  },
-  {
-    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=couple%20anniversary%20dinner%20elegant%20minimalist&image_size=landscape_4_3',
-    title: '1st Anniversary',
+    image: import.meta.env.BASE_URL + '1.jpg',
+    title: '美好的回忆',
     date: 'JAN 2024'
+  },
+  {
+    image: import.meta.env.BASE_URL + '2.jpg',
+    title: '甜蜜时光',
+    date: 'FEB 2024'
+  },
+  {
+    image: import.meta.env.BASE_URL + '3.jpg',
+    title: '爱的见证',
+    date: 'MAR 2024'
   },
   {
     image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=couple%20sunset%20walk%20romantic%20minimalist&image_size=landscape_4_3',
