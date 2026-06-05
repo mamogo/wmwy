@@ -95,21 +95,21 @@ const categories = [
 const photos = [
   {
     category: 'special',
-    image: './1.jpg',
+    image: import.meta.env.BASE_URL + '1.jpg',
     title: '第一张照片',
     date: '2024.01.01',
     description: '美好的回忆'
   },
   {
     category: 'special',
-    image: './2.jpg',
+    image: import.meta.env.BASE_URL + '2.jpg',
     title: '第二张照片',
     date: '2024.02.01',
     description: '甜蜜的时光'
   },
   {
     category: 'special',
-    image: './3.jpg',
+    image: import.meta.env.BASE_URL + '3.jpg',
     title: '第三张照片',
     date: '2024.03.01',
     description: '爱的见证'
