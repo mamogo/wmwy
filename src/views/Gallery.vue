@@ -115,6 +115,48 @@ const photos = [
     description: '爱的见证'
   },
   {
+    category: 'travel',
+    image: import.meta.env.BASE_URL + '4.jpg',
+    title: '第四张照片',
+    date: '2024.04.01',
+    description: '旅行的美好'
+  },
+  {
+    category: 'special',
+    image: import.meta.env.BASE_URL + '5.jpg',
+    title: '第五张照片',
+    date: '2024.05.01',
+    description: '特别的日子'
+  },
+  {
+    category: 'daily',
+    image: import.meta.env.BASE_URL + '6.jpg',
+    title: '第六张照片',
+    date: '2024.06.01',
+    description: '日常点滴'
+  },
+  {
+    category: 'travel',
+    image: import.meta.env.BASE_URL + '7.jpg',
+    title: '第七张照片',
+    date: '2024.07.01',
+    description: '盛夏时光'
+  },
+  {
+    category: 'special',
+    image: import.meta.env.BASE_URL + '8.jpg',
+    title: '第八张照片',
+    date: '2024.08.01',
+    description: '重要时刻'
+  },
+  {
+    category: 'daily',
+    image: import.meta.env.BASE_URL + '9.jpg',
+    title: '第九张照片',
+    date: '2024.09.01',
+    description: '秋日回忆'
+  },
+  {
     category: 'special',
     image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=romantic%20couple%20first%20date%20cafe%20elegant%20style&image_size=portrait_4_3',
     title: '第一次约会',

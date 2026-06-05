@@ -148,9 +148,9 @@ const specialMoments = [
     date: 'MAR 2024'
   },
   {
-    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=couple%20sunset%20walk%20romantic%20minimalist&image_size=landscape_4_3',
-    title: 'Sunset Walk',
-    date: 'JUN 2024'
+    image: import.meta.env.BASE_URL + '4.jpg',
+    title: '旅行记忆',
+    date: 'APR 2024'
   }
 ]
 

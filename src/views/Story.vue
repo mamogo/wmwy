@@ -108,42 +108,42 @@ const months = [
     title: '旅行',
     description: '第一次一起旅行，留下了美好的回忆。',
     bgColor: '#151515',
-    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=couple%20travel%20beach%20vacation%20romantic&image_size=portrait_4_3'
+    image: import.meta.env.BASE_URL + '4.jpg'
   },
   {
     month: 'MONTH 05',
     title: '告白',
     description: '520，特别的日子，特别的你。',
     bgColor: '#1a1a1a',
-    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=romantic%20couple%20valentines%20day%20elegant%20red&image_size=portrait_4_3'
+    image: import.meta.env.BASE_URL + '5.jpg'
   },
   {
     month: 'MONTH 06',
     title: '半年',
     description: '半年了，时间过得真快，爱你如初。',
     bgColor: '#151515',
-    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=couple%20half%20year%20anniversary%20romantic%20elegant&image_size=portrait_4_3'
+    image: import.meta.env.BASE_URL + '6.jpg'
   },
   {
     month: 'MONTH 07',
     title: '盛夏',
     description: '炎热的夏天，有你在身边就很凉快。',
     bgColor: '#1a1a1a',
-    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=couple%20summer%20beach%20sunset%20romantic&image_size=portrait_4_3'
+    image: import.meta.env.BASE_URL + '7.jpg'
   },
   {
     month: 'MONTH 08',
     title: '见家长',
     description: '紧张但开心的一天，我们都在为未来努力。',
     bgColor: '#151515',
-    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=couple%20meeting%20parents%20family%20warm%20elegant&image_size=portrait_4_3'
+    image: import.meta.env.BASE_URL + '8.jpg'
   },
   {
     month: 'MONTH 09',
     title: '金秋',
     description: '秋天，我们一起看落叶，感受季节的美好。',
     bgColor: '#1a1a1a',
-    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=couple%20autumn%20leaves%20romantic%20warm%20light&image_size=portrait_4_3'
+    image: import.meta.env.BASE_URL + '9.jpg'
   },
   {
     month: 'MONTH 10',
